@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="send_goal" type="goal" name="goal" output="screen"/>
+    <node pkg="turtlesim" type="turtlesim_node" name="turtle" output="screen"/>  
+</launch>
